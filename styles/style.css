@@ -1,0 +1,192 @@
+/* COLOR */
+:root{
+    --balotta: #f1b050;
+    --lilly: #f15072;
+    --bazza: #f1e050;
+}
+
+/* GENERAL */
+@font-face {
+    font-family: 'OstrichSans-Heavy';
+    src:  url('OstrichSans-Heavy.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'OstrichSans-Heavy';
+    background-color: white;
+    font-size: 30px;
+}
+
+header {
+    height: 120px;
+    margin-top: 20px;
+}
+
+
+/* DEBUG */ 
+
+/* div{
+    border: 1px solid red;
+} */
+
+/* DETTAGLIO BIRRA */
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: auto;
+    width: 90vw;
+}
+
+.container .left{
+    width: 50%;
+    padding-top: 150px;
+}
+
+.container .right{
+    width: 50%;
+}
+
+.fullParent{
+    width: 100%;
+}
+
+.halfParent{
+    width: 50%;
+}
+
+.quarterParentHeight{
+    height: 25%;
+}
+
+.halfParentHeight{
+    height: 50%;
+}
+
+.fullParentHeight{
+    height: 100%;
+}
+
+.statsBox div{
+    font-size: 50px;
+    text-align: center;
+}
+
+.padded{
+    padding: 50px;
+}
+
+h1{
+    text-align: right;
+    font-size: 150px;
+    margin: 0;
+    /* letter-spacing: 28px; */
+}
+
+h2{
+    text-align: right;
+    font-size: 80px;
+    margin: 0;
+}
+
+h5{
+    text-align: right;
+    font-size: 30px;
+    margin: 0;
+    margin-top: -10px;
+}
+
+h3{
+    font-size: 40px;
+    margin: 0;
+}
+
+.beerDescription{
+    padding: 50px;  
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.justifyText{
+    text-align: justify;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.backIcon{
+    height: 70px;
+    margin-left: 5vw;
+    padding-left: 50px;
+}
+
+footer{
+    margin-bottom: 50px;
+}
+
+.spacer50px{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIMO */
+/* 
+div {
+    padding: 10px;
+} */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.main {
+    height: 100%;
+}
+
+.main .left {  
+    float: left;  
+    width: 50%;
+    margin: 10px;
+    align-content: center;
+}
+
+.main .right {
+    float: left;
+    width: 50%;
+}
+
+.footer {
+    align-content: center;
+    
+    
+}
