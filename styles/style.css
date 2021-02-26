@@ -1,11 +1,15 @@
-/* COLOR */
+/* ########################## */
+/* #        COLOR           # */
+/* ########################## */
 :root{
     --balotta: #f1b050;
     --lilly: #f15072;
     --bazza: #f1e050;
 }
 
-/* GENERAL */
+/* ########################## */
+/* #        GENERAL         # */
+/* ########################## */
 @font-face {
     font-family: 'OstrichSans-Heavy';
     src:  url('OstrichSans-Heavy.otf') format('opentype');
@@ -14,7 +18,7 @@
 * {
     box-sizing: border-box;
     font-family: 'OstrichSans-Heavy';
-    background-color: white;
+    background-color: #f5f1dc;
     font-size: 30px;
 }
 
@@ -23,14 +27,12 @@ header {
     margin-top: 20px;
 }
 
+.logo{
+    display: block;
+    height: 100%;
+    margin: auto;
+}
 
-/* DEBUG */ 
-
-/* div{
-    border: 1px solid red;
-} */
-
-/* DETTAGLIO BIRRA */
 .flexRow{
     display: flex;
     flex-direction: row;
@@ -39,20 +41,6 @@ header {
 .flexColumn{
     display: flex;
     flex-direction: column;
-}
-
-.container{
-    margin: auto;
-    width: 90vw;
-}
-
-.container .left{
-    width: 50%;
-    padding-top: 150px;
-}
-
-.container .right{
-    width: 50%;
 }
 
 .fullParent{
@@ -75,9 +63,43 @@ header {
     height: 100%;
 }
 
-.statsBox div{
-    font-size: 50px;
+.justifyText{
+    text-align: justify;
+}
+
+.centerText{
     text-align: center;
+}
+
+.defaultCursor{
+    cursor: default;
+}
+
+/* ########################## */
+/* #        DEBUG           # */
+/* ########################## */
+
+/* div{
+    border: 1px solid red;
+} */
+
+/* ########################## */
+/* #    DETTAGLIO BIRRA     # */
+/* ########################## */
+
+.container{
+    margin: auto;
+    width: 90vw;
+    max-width: 1400px;
+}
+
+.container .left{
+    width: 50%;
+    padding-top: 150px;
+}
+
+.container .right{
+    width: 50%;
 }
 
 .padded{
@@ -101,7 +123,8 @@ h5{
     text-align: right;
     font-size: 30px;
     margin: 0;
-    margin-top: -10px;
+    margin-top: -25px;
+    margin-bottom: 15px;
 }
 
 h3{
@@ -116,14 +139,6 @@ h3{
     height: 100%;
 }
 
-.justifyText{
-    text-align: justify;
-}
-
-.centerText{
-    text-align: center;
-}
-
 .backIcon{
     height: 70px;
     margin-left: 5vw;
@@ -136,6 +151,14 @@ footer{
 
 .spacer50px{
     height: 50px;
+}
+
+.productContainer{
+    text-align: center;
+}
+
+.productContainer img{
+    height: 100%;
 }
 
 
@@ -157,36 +180,12 @@ footer{
 
 
 /* SIMO */
-/* 
-div {
-    padding: 10px;
-} */
 
+/* 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-}
+} */
 
-.main {
-    height: 100%;
-}
-
-.main .left {  
-    float: left;  
-    width: 50%;
-    margin: 10px;
-    align-content: center;
-}
-
-.main .right {
-    float: left;
-    width: 50%;
-}
-
-.footer {
-    align-content: center;
-    
-    
-}
