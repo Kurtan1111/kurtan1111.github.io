@@ -79,7 +79,6 @@ header {
 
 .backIcon{
     height: 70px;
-    margin-left: 5vw;
     padding-left: 50px;
 }
 
@@ -188,7 +187,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    margin-top: 30px;
     max-width: 1400px;
+    width: 90vw;
 }
 
 .spacer50px{
