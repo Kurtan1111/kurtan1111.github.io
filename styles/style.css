@@ -88,6 +88,12 @@ header {
     max-width: 1400px;
 }
 
+.backIcon{
+    height: 70px;
+    margin-left: 5vw;
+    padding-left: 50px;
+}
+
 @media screen and (min-width: 1101px) {
     .container .productContainer{
         width: 50%;
@@ -118,7 +124,6 @@ header {
         text-align: right;
         font-size: 150px;
         margin: 0;
-        /* letter-spacing: 28px; */
     }
 
     .bottomDesc{
@@ -158,9 +163,8 @@ header {
 
     h1{
         text-align: right;
-        font-size: 120px;
+        font-size: 100px;
         margin: 0;
-        /* letter-spacing: 28px; */
     }
 
     .bottomDesc{
@@ -172,6 +176,10 @@ header {
         font-size: 40px;
         margin: 0;
         margin-top: 40px;
+    }
+
+    .backIcon{
+        padding: 0;
     }
 
 }
@@ -187,19 +195,13 @@ h5{
     text-align: right;
     font-size: 30px;
     margin: 0;
-    margin-top: -25px;
-    margin-bottom: 15px;
 }
 
 
 
 
 
-.backIcon{
-    height: 70px;
-    margin-left: 5vw;
-    padding-left: 50px;
-}
+
 
 footer{
     margin-bottom: 50px;
